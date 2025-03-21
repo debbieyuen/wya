@@ -144,3 +144,11 @@
 *.uasset filter=lfs diff=lfs merge=lfs -text
 *.umap filter=lfs diff=lfs merge=lfs -text
 *_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+
+# Added from GitHub
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.xcf filter=lfs diff=lfs merge=lfs -text
+
+# Anything in `/RawContent` dir.
+/RawContent/**/* filter=lfs diff=lfs merge=lfs -text
